@@ -1,0 +1,58 @@
+---
+output:
+  html_fragment
+params:
+  output_directory: NA
+  plotName: NA
+  tree_segm_parameters: NA
+  PointNo_table_v4: NA
+  sum_table2: NA
+  histogram: NA
+  density: NA
+  treePoly_map_final: NA
+---
+
+```{r echo=FALSE, message=FALSE}
+htmltools::includeHTML(paste0(params$output_directory, "/", params$plotName, "/elevation_models.html"))
+```
+
+## Tree segmentation
+
+Dynamic window size functions:
+The linear function determines the search radius that is dependent on the pixel height x.
+
+Parameters used:
+
+```{r echo=FALSE}
+kable(params$tree_segm_parameters)
+```
+
+Tree polygons with tree tops:
+
+```{r echo=FALSE, message=FALSE}
+params$treePoly_map_final
+```
+
+Number of tree points:
+
+```{r echo=FALSE}
+kable(params$PointNo_table_v4)
+```
+
+Histogram:
+
+```{r echo=FALSE, message=FALSE}
+params$histogram
+```
+
+Density:
+
+```{r echo=FALSE, message=FALSE}
+params$density
+```
+
+Tree statistics table:
+
+```{r echo=FALSE}
+kable(params$sum_table2)
+```

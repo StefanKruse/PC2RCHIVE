@@ -1,0 +1,72 @@
+Publications:
+
+Brieger F, Herzschuh U, Pestryakova LA, Bookhagen B, Zakharov ES, Kruse S (2019) Advances in the derivation of Northeast Siberian forest metrics using high-resolution UAV-based photogrammetric point clouds. Remote Sensing. 2019 Jun 18;11(12):1447. https://doi.org/10.3390/rs11121447
+
+Bieger F (2019) Derivation of Biophysical Metrics for NE-Siberian Biomes using UAV-based Photogrammetric Point Clouds, Master's Thesis, University of Potsdam, Alfred-Wegener-Institut
+
+R:
+
+R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+RStudio Team (2023). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA URL http://www.rstudio.com/.
+
+R packages:
+
+Allaire JJ, Xie Y, McPherson J, Luraschi J, Ushey K, Atkins A, Wickham H, Cheng J, Chang W, & Iannone R (2020). rmarkdown: Dynamic Documents for R. https://github.com/rstudio/rmarkdown
+
+Appelhans T, Detsch F, Reudenbach C, Woellauer S (2023). mapview: Interactive Viewing of Spatial Data in R. R package version 2.11.2, https://github.com/r-spatial/mapview.
+
+Auguie B (2019) 'egg' package: https://github.com/baptiste/egg
+
+Bengtsson H (2023) 'utils' package https://github.com/HenrikBengtsson/R.utils
+
+Chang W (2024). shinythemes: Themes for Shiny. R package version 1.2.0, https://github.com/rstudio/shinythemes.
+
+Chang W, Cheng J, Allaire J, Sievert C, Schloerke B, Xie Y, Allen J, McPherson J, Dipert A, Borges B (2024). shiny: Web Application Framework for R. R package version 1.9.1.9000, https://github.com/rstudio/shiny, https://shiny.posit.co/.
+
+Chang W, Xie Y, Guillem F, Schloerke B, Perriault N (2023) 'webshot' package https://github.com/wch/webshot
+
+Cheng J, Schloerke B, Karambelkar B, Xie Y (2024). leaflet: Create Interactive Web Maps with the JavaScript 'Leaflet' Library. R package version 2.2.2.9000, https://github.com/rstudio/leaflet,
+
+Cheng J, Sievert C, Schloerke B, Chang W, Xie Y, Allen J (2024). htmltools: Tools for HTML. R package version 0.5.8.9000, https://rstudio.github.io/htmltools/, https://github.com/rstudio/htmltools.
+
+Fellows I (2012). OpenStreetMap: Access to Open Street Map Raster Images. R package version 0.4.0, https://cran.r-project.org/web/packages/OpenStreetMap
+
+Hijmans R (2024). raster: Geographic Data Analysis and Modeling. R package version 3.6-28, https://rspatial.org/raster.
+
+Hijmans R (2024). terra: Spatial Data Analysis. R package version 1.7-81, , https://github.com/rspatial/terra.
+
+Ooms J (2024). pdftools: Text Extraction, Rendering and Converting of PDF Documents. R package version 3.4.0, https://github.com/ropensci/pdftools. 
+
+Pebesma E, Mailund T, Hiebert J (2016). “Measurement Units in R.” R Journal, 8(2), 486–494. <doi:10.32614/RJ-2016-061>.
+
+Pebesma E, 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal 10 (1), 439-446, https://doi.org/10.32614/RJ-2018-009
+
+Pebesma E, & Bivand R (2023). Spatial Data Science: With Applications in R. Chapman and Hall/CRC. https://doi.org/10.1201/9780429459016
+
+Pedersen T, Nijs V, Schaffner T, Nantz E (2024). shinyFiles: A Server-Side File System Viewer for Shiny. R package version 0.9.3.9000, https://github.com/thomasp85/shinyfiles.
+
+Perrier V, Meyer F (2024). fresh: Create Custom 'Bootstrap' Themes to Use in 'Shiny'. R package version 0.2.1, https://github.com/dreamRs/fresh.
+
+Plowright A. (2023). ForestTools: Tools for Analyzing Remote Sensing Forest Data. R package version 1.0.2, https://github.com/andrew-plowright/ForestTools.
+
+Roussel JR (2018). RCSF: Airborne LiDAR Filtering Method Based on Cloth Simulation. R package version 1.0.2, https://cran.r-project.org/web/packages/RCSF
+
+Roussel JR and Auty D (2024). Airborne LiDAR Data Manipulation and Visualization for Forestry Applications. R package version 4.1.3. https://cran.r-project.org/package=lidR
+
+Roussel JR, Auty D, Coops N C, Tompalski P, Goodbody T R H, Sánchez Meador A, Bourdon JF, De Boissieu F, Achim, A (2020). lidR : An R package for analysis of Airborne Laser Scanning (ALS) data. Remote Sensing of Environment, 251 (August), 112061. <doi:10.1016/j.rse.2020.112061>.
+
+Tennekes M (2018). “tmap: Thematic Maps in R.” Journal of Statistical Software, 84(6), 1–39. <doi:10.18637/jss.v084.i06>.
+
+Wickham H (2016). ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. ISBN 978-3-319-24277-4, https://ggplot2.tidyverse.org.
+
+Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” Journal of Open Source Software, 4(43), 1686. doi:10.21105/joss.01686.
+
+Wickham H, François R, Henry L, Müller K (2022). dplyr: A Grammar of Data Manipulation. https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr.
+
+Xie Y (2024). knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.48, https://yihui.org/knitr/.
+
+Xie Y (2024). tinytex: Helper Functions to Install and Maintain TeX Live, and Compile LaTeX Documents. R package version 0.53, https://github.com/rstudio/tinytex.
+
+Xie Y, Cheng J, Tan X (2022). DT: A Wrapper of the JavaScript Library 'DataTables'. R package version 0.23, https://github.com/rstudio/DT.
+

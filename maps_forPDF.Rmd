@@ -1,0 +1,46 @@
+---
+output:
+  pdf_document
+params:
+  output_directory: NA
+  plotName: NA
+  boundary_sf_longlat: NA
+  utm.map: NA
+  user_created_map1: NA
+  user_created_map2: NA
+header-includes:
+ - \setcounter{page}{`r sum(pdf_info(paste0(params$output_directory, "/", params$plotName, "/reading_las.pdf"))[[2]],             pdf_info(paste0(params$output_directory, "/", params$plotName, "/elevation_models.pdf"))[[2]],                        pdf_info(paste0(params$output_directory, "/", params$plotName, "/tree_segmentation.pdf"))[[2]], 1)`}
+---
+
+## Maps
+
+### Footprint of point cloud: 
+
+```{r echo=FALSE}
+plot(params$boundary_sf_longlat)
+```
+
+### UTM map with Latitude/Longitde (WGS84, EPSG:4326) coordinates included:
+
+```{r echo=FALSE, message=FALSE, fig.width=9, fig.height=9}
+tmap_mode("plot") +
+          params$utm.map
+```
+
+### ESRI Satellite Imagery:
+
+```{r echo=FALSE}
+knitr::include_graphics(paste0(params$output_directory, "/", params$plotName, "/", params$plotName, "_ESRI_footprint.png"))
+```
+
+### OpenStreetMap:
+
+```{r echo=FALSE}
+knitr::include_graphics(paste0(params$output_directory, "/", params$plotName, "/", params$plotName, "_OpenStreetMap_footprint.png"))
+```
+
+## References
+
+```{r echo=FALSE, results="asis"}
+cat(readLines('references.txt'), sep = '\n')
+```

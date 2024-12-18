@@ -1,0 +1,37 @@
+---
+output:
+  html_fragment
+params:
+  info_raw2: NA
+  df_1: NA
+  df_2: NA
+  df_3: NA
+---
+
+# Report - plot `r input$plotName`
+
+## Created by: `r input$dataProc_person`
+## Date: `r input$dataProc_date`
+## R version: `r version$version.string`
+
+## General information on the point cloud
+
+Table 1
+
+```{r echo=FALSE}
+kable(params$df_1)
+```
+
+```{r echo=FALSE}
+kable(params$df_2)
+```
+
+```{r echo=FALSE}
+kable(params$df_3)
+```
+
+Table 2
+
+```{r echo=FALSE}
+kable(params$info_raw2)
+```

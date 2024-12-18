@@ -1,0 +1,43 @@
+---
+output:
+  html_document
+params:
+  output_directory: NA
+  plotName: NA
+  boundary_sf_longlat: NA
+  utm.map: NA
+  user_created_map1: NA
+  user_created_map2: NA
+---
+
+```{r echo=FALSE, message=FALSE}
+htmltools::includeHTML(paste0(params$output_directory, "/", params$plotName, "/tree_segmentation.html"))
+```
+
+## Maps
+
+### Footprint of point cloud: 
+
+```{r echo=FALSE}
+plot(params$boundary_sf_longlat)
+```
+
+### UTM map with Latitude/Longitde (WGS84, EPSG:4326) coordinates included::
+
+```{r echo=FALSE, message=FALSE, fig.width=9, fig.height=9}
+tmap_mode("plot") +
+          params$utm.map
+```
+
+### Interactive map:
+  
+```{r echo=FALSE}
+params$user_created_map1
+```
+
+
+## References
+
+```{r echo=FALSE, results="asis"}
+cat(readLines('references.txt'), sep = '\n')
+```

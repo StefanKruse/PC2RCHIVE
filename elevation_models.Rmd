@@ -1,0 +1,84 @@
+---
+output:
+  html_fragment
+params:
+  output_directory: NA
+  plotName: NA
+  classification_selection: NA
+  CSF_parameters: NA
+  PointNo_table2: NA
+  DEM_resolution: NA
+  dtm_tin: NA
+  dsm_tin: NA
+  chm_tin: NA
+  slope: NA
+  aspect: NA
+---
+
+```{r echo=FALSE, message=FALSE}
+htmltools::includeHTML(paste0(params$output_directory, "/", params$plotName, "/reading_las.html"))
+```
+
+## Classification
+
+Method
+
+```{r echo=FALSE}
+if(params$classification_selection == 'v1') {
+      print("An existing classification from the point cloud was used for further processing.")
+    } else if (params$classification_selection == 'v2') {
+      print( "New classified data was uploaded")
+    } else if (params$classification_selection == 'v3') {
+      print("Data was classified using Cloth Simulation Filter")
+    }
+```
+
+```{r echo=FALSE}
+if(params$classification_selection == 'v3') {
+  kable(params$CSF_parameters)
+    }
+```
+
+Number of points:
+
+```{r echo=FALSE}
+kable(params$PointNo_table2)
+```
+
+## Elevation models
+
+Resolution (the size of a grid cell in point cloud coordinates units - that is 1 m):
+```{r echo=FALSE}
+print(params$DEM_resolution)
+```
+
+
+Digital Terrain Model:
+
+```{r echo=FALSE}
+plot(params$dtm_tin, col = height.colors(25))
+```
+
+Digital Surface Model:
+
+```{r echo=FALSE}
+plot(params$dsm_tin, col = height.colors(25))
+```
+
+Canopy Height Model:
+
+```{r echo=FALSE}
+plot(params$chm_tin, col = height.colors(25))
+```
+
+Slope:
+
+```{r echo=FALSE}
+plot(params$slope)
+```
+
+Aspect:
+
+```{r echo=FALSE}
+plot(params$aspect)
+```
