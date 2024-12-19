@@ -6,10 +6,14 @@ Luca Zsofia Farkas, AWI Potsdam
 Dr. Stefan Kruse, AWI Potsdam
 
 This application was built in R Studio using the Shiny package.
+R version: 4.3.0
+R package versions are listed in 'requirements.txt'.
+
 The following packages related to shiny were also used to build the program: shinythemes, fresh, shinyFiles, htmltools, markdown.
 
 The files listed are required for the application and must be saved in the same directory as the application:
--'general_information.txt' - text of the landing page ('General information' tab)
+-'general_information.Rmd' - text of the landing page ('General information' tab)
+- png files that belong to the 'general_information.Rmd': 'GI_digital_elevation_models.png', 'GI_ground_classification.png', 'GI_tree_segmentation.png', 'GI_maps.png', 'GI_metadata.png'
 -'references.txt' - list of references to be included in the final report ('maps.Rmd', 'maps_forPDF.Rmd')
 R markdown (Rmd) files to create reports:
 -'reading_las.Rmd', 'reading_las_forPDF.Rmd'
