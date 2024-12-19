@@ -32,6 +32,8 @@ Cheng J, Sievert C, Schloerke B, Chang W, Xie Y, Allen J (2024). htmltools: Tool
 
 Fellows I (2012). OpenStreetMap: Access to Open Street Map Raster Images. R package version 0.4.0, https://cran.r-project.org/web/packages/OpenStreetMap
 
+Gombin J, Vaidyanathan R, Agafonkin V (2024). concaveman: A Very Fast 2D Concave Hull Algorithm. R package version 1.1.0, https://github.com/joelgombin/concaveman
+
 Hijmans R (2024). raster: Geographic Data Analysis and Modeling. R package version 3.6-28, https://rspatial.org/raster.
 
 Hijmans R (2024). terra: Spatial Data Analysis. R package version 1.7-81, , https://github.com/rspatial/terra.
