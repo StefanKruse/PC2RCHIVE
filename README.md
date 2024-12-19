@@ -19,6 +19,7 @@ Adjusting the filter parameters such as rigidness, cloth resolution and classifi
 From the classified points, separate ground and above-ground point clouds are generated.<br />
 For ground classification, the lidR and RCSF R packages are used.
 <br />
+
 ![GI_ground_classification](https://github.com/user-attachments/assets/ef87b1ea-d59a-45c9-81cc-7a71adf299c7)
 
 #### **Generating digital models of the point cloud**
@@ -29,6 +30,7 @@ The program creates two dimensional raster data (lidR package) with user-defined
 - Digital Surface Model (DSM) is created based on the highest points of all surface objects (vegetation included) and so it is calculated by interpolating the highest points of each grid cell.
 - Canopy Height Model (CHM) is the vegetation thickness derived from the difference between DSM and DTM.
 <br />
+
 ![GI_digital_elevation_models](https://github.com/user-attachments/assets/b0ed0afe-afa4-45ac-aa1e-8168a1be00ce)
 
 #### **Tree segmentation**
@@ -41,7 +43,7 @@ The algorithm that is used to calculate the crown diameter is similar to that us
 In the next step, the detected tree tops are assigned to the crown polygons, and tree tops without crown polygons get deleted. 
 As an output, a point cloud of tree points is generated. The identified trees get an ID number, which is then added to respective point clouds.
 <br />
-<br />
+
 ![GI_tree_segmentation](https://github.com/user-attachments/assets/1e8683b8-47e9-4fb3-9426-ad181b6aea13)
 
 #### **Maps and report**
@@ -51,7 +53,7 @@ The footprint of the point cloud is displayed on a UTM gridded map, along with t
 An interactive map is also generated with OpenStreetMap and ESRI Satellite Imagery layers (R package leaflet).<br />
 Finally, a summary report is produced, including maps and other relevant results of the data processing.
 <br />
-<br />
+
 ![GI_maps](https://github.com/user-attachments/assets/30ede7c8-0659-47fc-a1ab-0e2cdc67085a)
 
 #### **User defined metadata**
@@ -60,7 +62,7 @@ Finally, a summary report is produced, including maps and other relevant results
 The user provides metadata related to the data acquisition and the point cloud generation. Besides the metadata, parameters and results of the data processing progress are all collected into a summary table.<br />
 Since multiple point clouds are created from the remote sensing data collected during a campaign, each point cloud has its own row in the summary table.
 <br />
-<br />
+
 ![GI_metadata](https://github.com/user-attachments/assets/abc3499d-17a4-4d38-a4aa-78c05f436ca4)
 
 #### **Creating ZIP files from the output data**
