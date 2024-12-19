@@ -1,9 +1,9 @@
 # PC2RCHIVE
 
-### 2024
-### Authors:
-### Luca Zsofia Farkas
-### Dr. Stefan Kruse
+#### 2024
+#### Authors:
+#### Luca Zsofia Farkas
+#### Dr. Stefan Kruse
 
 The main purpose of the application is to process point clouds of vegetation plots collected during the Alfred-Wegener-Institute's data collection campaigns.
 The two main steps of data processing are ground classification and tree identification. As part of the processing, digital elevation models of the point clouds and maps of the point cloud positions are generated.
@@ -65,17 +65,31 @@ For more information on data processing Brieger et al. (2019).
 This project has been supported by the DataHub Information Infrastructure funds, projects BorFIT and PC2RCHIVE. 
 
 #### **References**
+<br />
 Brieger F, Herzschuh U, Pestryakova LA, Bookhagen B, Zakharov ES, Kruse S (2019) Advances in the derivation of Northeast Siberian forest metrics using high-resolution UAV-based photogrammetric point clouds. Remote Sensing. 2019 Jun 18;11(12):1447. https://doi.org/10.3390/rs11121447.
+<br />
+<br />
 Zhang W, Qi J, Wan P, Wang H, Xie D, Wang X, Yan G (2016) An easy-to-use airborne LiDAR data filtering method based on cloth simulation. Remote Sens. 2016, 8, 501.  https://doi.org/10.3390/rs8060501.
+<br />
+<br />
 
 #### **R references**
+<br />
+
 *R Core Team* (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
 *RStudio Team* (2023). RStudio: Integrated Development for R. RStudio, Inc., Boston, MA URL http://www.rstudio.com/.
+
 Chang W, Cheng J, Allaire J, Sievert C, Schloerke B, Xie Y, Allen J, McPherson J, Dipert A, Borges B (2024). *shiny*: Web Application Framework for R. R package version 1.9.1.9000, https://github.com/rstudio/shiny, https://shiny.posit.co/.
+
 Cheng J, Schloerke B, Karambelkar B, Xie Y (2024). *leaflet*: Create Interactive Web Maps with the JavaScript 'Leaflet' Library. R package version 2.2.2.9000, https://github.com/rstudio/leaflet.
+
 Plowright A (2023). *ForestTools*: Tools for Analyzing Remote Sensing Forest Data. R package version 1.0.2, https://github.com/andrew-plowright/ForestTools.
+
 Roussel JR (2018). *RCSF*: Airborne LiDAR Filtering Method Based on Cloth Simulation. R package version 1.0.2, https://cran.r-project.org/web/packages/RCSF.
+
 Roussel JR, Auty D, Coops N C, Tompalski P, Goodbody T R H, Sánchez Meador A, Bourdon JF, De Boissieu F, Achim, A (2020). *lidR*: An R package for analysis of Airborne Laser Scanning (ALS) data. Remote Sensing of Environment, 251 (August), 112061. <doi:10.1016/j.rse.2020.112061>.
+
 Tennekes M (2018). *tmap*: Thematic Maps in R. Journal of Statistical Software, 84(6), 1–39. <doi:10.18637/jss.v084.i06>.
 
 
