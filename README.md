@@ -12,6 +12,7 @@ The user also provides metadata related to data acquisition and point cloud gene
 Finally, a report is created and the output files are prepared for data publication.
 <br />
 <br />
+
 #### **Classification of point cloud to ground and above-ground points**
 <br />
 The user can select their own pre-classified data or, if required, perform ground classification by using a cloth simulation filter (CSF) (Zhang et al., 2016), which is a morphological filter that fits a surface (like a cloth) on the bottom of the ground. 
@@ -81,6 +82,7 @@ For more information on data processing Brieger et al. (2019).
 This project has been supported by the DataHub Information Infrastructure funds, projects BorFIT and PC2RCHIVE. 
 <br />
 <br />
+
 #### **References**
 <br />
 Brieger F, Herzschuh U, Pestryakova LA, Bookhagen B, Zakharov ES, Kruse S (2019) Advances in the derivation of Northeast Siberian forest metrics using high-resolution UAV-based photogrammetric point clouds. Remote Sensing. 2019 Jun 18;11(12):1447. https://doi.org/10.3390/rs11121447.
